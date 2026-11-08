@@ -8,7 +8,7 @@ Code, configurations, run manifests, result tables and figures for the manuscrip
 - `results/figures/`: every manuscript figure (PNG and LZW TIFF at 600 dpi, vector PDF), numbered as in the manuscript and Additional file 1; redrawn by `modal_jobs/figures_paper*.py`
 - `results/tables/main`, `results/tables/supplementary`: every manuscript table as CSV, numbered as in the manuscript
 - `results/tables/source_data/`: the result tables the manuscript was built from
-- `results/provenance/`: run manifests (package versions, SHA-256 hashes of inputs, code and outputs) and the audit report (PASS 125 | FAIL 0)
+- `results/provenance/`: run manifests (package versions, SHA-256 hashes of inputs, code and outputs) and the audit report (PASS 128 | FAIL 0)
 
 ## Data
 The input data are the public cross-study drug-response benchmark of Partin et al., deposited at Zenodo (record 15258883, https://doi.org/10.5281/zenodo.15258883). They are not redistributed here. `data_preparation/prepare_gdsc2_ctrp.py` builds the analysis table and its provenance record from the extracted archive.
