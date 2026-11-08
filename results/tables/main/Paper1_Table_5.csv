@@ -1,17 +1,8 @@
-﻿"Table 5. Endpoint-cutoff sensitivity (ten seeds per cell): positive rates, rank agreement (mean, SD), mean selection regret and best external model."
-Cutoff,Design,Positive int/ext (%),Rank agreement (SD),Mean regret,Zero-regret splits,Best external model
-0.5,random-compound,4.5/2.3,0.18 (0.50),0.0007,2,late fusion
-0.5,scaffold,5.3/2.3,-0.37 (0.64),0.0034,2,late fusion
-0.5,chemical-cluster,4.2/2.3,-0.02 (0.66),0.0022,3,context only
-0.6,random-compound,8.0/4.9,-0.16 (0.55),0.0018,3,late fusion
-0.6,scaffold,9.0/4.9,0.09 (0.48),0.0033,5,late fusion
-0.6,chemical-cluster,8.0/4.9,0.17 (0.65),0.0019,4,late fusion
-0.7,random-compound,14.6/9.8,0.03 (0.51),0.0045,3,late fusion
-0.7,scaffold,16.1/9.8,0.33 (0.40),0.0023,8,late fusion
-0.7,chemical-cluster,14.9/9.8,0.30 (0.59),0.0027,5,late fusion
-0.8,random-compound,29.6/20.5,0.56 (0.05),0.0052,5,late fusion
-0.8,scaffold,31.0/20.5,0.52 (0.09),0.0019,5,late fusion
-0.8,chemical-cluster,29.2/20.5,0.62 (0.11),0.0016,5,late fusion
-0.9,random-compound,58.0/43.5,0.53 (0.09),0.0069,4,context only
-0.9,scaffold,59.4/43.5,0.50 (0.43),0.0114,4,context only
-0.9,chemical-cluster,57.6/43.5,0.54 (0.27),0.0058,4,context only
+﻿Table 5. Meta-evaluation by overlap of external cell lines with development
+External subset,Design,Mean |gap|,Rank agreement (SD),Mean regret,Zero-regret splits
+cell lines not in development,chemical-cluster,0.041,0.19 (0.53),0.0052,5
+cell lines not in development,random-compound,0.039,0.02 (0.40),0.0070,3
+cell lines not in development,scaffold,0.041,0.06 (0.40),0.0047,5
+cell lines also in development,chemical-cluster,0.039,0.46 (0.43),0.0013,6
+cell lines also in development,random-compound,0.037,0.16 (0.69),0.0031,4
+cell lines also in development,scaffold,0.039,0.52 (0.35),0.0008,8

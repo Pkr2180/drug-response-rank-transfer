@@ -1,0 +1,11 @@
+﻿Table S11. Late-fusion block weights by design
+Design,Block,Mean weight,SD
+chemical-cluster,cell context,0.704,0.266
+chemical-cluster,molecular,0.119,0.204
+chemical-cluster,phospho-protein,0.177,0.240
+random-compound,cell context,0.512,0.193
+random-compound,molecular,0.394,0.292
+random-compound,phospho-protein,0.094,0.135
+scaffold,cell context,0.580,0.302
+scaffold,molecular,0.317,0.286
+scaffold,phospho-protein,0.103,0.203

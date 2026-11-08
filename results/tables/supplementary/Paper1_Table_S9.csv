@@ -1,12 +1,17 @@
-﻿Table S9. Brier skill against a constant forecast by model in the two replication pairs (means over 30 splits).
-Cohort pair,Model,External skill,Internal skill
-CTRPv2 to GDSCv2 (reverse),context_only,-0.086,0.03
-CTRPv2 to GDSCv2 (reverse),early_fusion,-0.271,-0.14
-CTRPv2 to GDSCv2 (reverse),late_fusion,-0.052,0.032
-CTRPv2 to GDSCv2 (reverse),molecular_only,-0.241,-0.172
-CTRPv2 to GDSCv2 (reverse),without_ptm,-0.263,-0.138
-GDSCv2 to GDSCv1,context_only,-0.023,0.005
-GDSCv2 to GDSCv1,early_fusion,-0.147,-0.066
-GDSCv2 to GDSCv1,late_fusion,-0.032,0.004
-GDSCv2 to GDSCv1,molecular_only,-0.152,-0.102
-GDSCv2 to GDSCv1,without_ptm,-0.15,-0.069
+﻿Table S9. External performance by model and cell-line subset
+Subset,Model,Prevalence,Brier,Constant-forecast Brier,Skill,AUROC
+all,context-only,0.098,0.096,0.085,−0.126,0.556
+all,early fusion,0.098,0.099,0.085,−0.167,0.585
+all,late fusion,0.098,0.089,0.085,−0.054,0.563
+all,molecular-only,0.098,0.095,0.085,−0.123,0.542
+all,no-PTM,0.098,0.101,0.085,−0.192,0.583
+new lines,context-only,0.094,0.099,0.080,−0.228,0.546
+new lines,early fusion,0.094,0.095,0.080,−0.185,0.579
+new lines,late fusion,0.094,0.088,0.080,−0.098,0.547
+new lines,molecular-only,0.094,0.091,0.080,−0.128,0.538
+new lines,no-PTM,0.094,0.100,0.080,−0.247,0.577
+shared lines,context-only,0.102,0.093,0.088,−0.059,0.569
+shared lines,early fusion,0.102,0.102,0.088,−0.157,0.589
+shared lines,late fusion,0.102,0.090,0.088,−0.026,0.578
+shared lines,molecular-only,0.102,0.098,0.088,−0.121,0.545
+shared lines,no-PTM,0.102,0.102,0.088,−0.157,0.589

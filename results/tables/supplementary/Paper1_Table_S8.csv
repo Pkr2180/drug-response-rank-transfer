@@ -1,17 +1,14 @@
-﻿"Table S8. External performance by model on all, shared and novel cell lines (cutoff 0.7; means over 30 splits)."
-Subset,Model,Prevalence,Brier,Constant-forecast Brier,Skill,AUROC
-all,context_only,0.098,0.096,0.085,-0.126,0.556
-all,early_fusion,0.098,0.099,0.085,-0.167,0.585
-all,late_fusion,0.098,0.089,0.085,-0.054,0.563
-all,molecular_only,0.098,0.095,0.085,-0.123,0.542
-all,without_ptm,0.098,0.101,0.085,-0.192,0.583
-novel_lines,context_only,0.094,0.099,0.08,-0.228,0.546
-novel_lines,early_fusion,0.094,0.095,0.08,-0.185,0.579
-novel_lines,late_fusion,0.094,0.088,0.08,-0.098,0.547
-novel_lines,molecular_only,0.094,0.091,0.08,-0.128,0.538
-novel_lines,without_ptm,0.094,0.1,0.08,-0.247,0.577
-shared_lines,context_only,0.102,0.093,0.088,-0.059,0.569
-shared_lines,early_fusion,0.102,0.102,0.088,-0.157,0.589
-shared_lines,late_fusion,0.102,0.09,0.088,-0.026,0.578
-shared_lines,molecular_only,0.102,0.098,0.088,-0.121,0.545
-shared_lines,without_ptm,0.102,0.102,0.088,-0.157,0.589
+﻿Table S8. Meta-evaluation on prevalence-adjusted and prevalence-free scales
+Metric,Design,Mean |gap|,Rank agreement (SD),Mean regret,Zero-regret splits
+Brier,random-compound,0.038,0.03 (0.51),0.0045,3
+Brier,scaffold,0.040,0.33 (0.40),0.0023,8
+Brier,chemical-cluster,0.040,0.30 (0.59),0.0027,5
+Brier skill,random-compound,0.108,0.03 (0.51),0.0532,3
+Brier skill,scaffold,0.125,0.33 (0.40),0.0271,8
+Brier skill,chemical-cluster,0.112,0.30 (0.59),0.0315,5
+"Brier, intercept-recalibrated",random-compound,0.038,0.35 (0.66),0.0065,5
+"Brier, intercept-recalibrated",scaffold,0.040,0.53 (0.55),0.0035,7
+"Brier, intercept-recalibrated",chemical-cluster,0.038,0.61 (0.22),0.0004,7
+AUROC,random-compound,0.094,0.31 (0.47),0.0159,2
+AUROC,scaffold,0.094,0.24 (0.53),0.0210,2
+AUROC,chemical-cluster,0.096,0.64 (0.37),0.0052,4

@@ -1,27 +1,27 @@
-﻿"Table S6. External equal-compound Brier loss, AUROC and prevalence by model and endpoint cutoff (means over ten seeds and three designs)."
+﻿Table S6. External performance by model and endpoint cutoff
 Cutoff,Model,External Brier,External AUROC,External prevalence
-0.5,context only,0.0223,0.593,0.0228
-0.5,early fusion,0.0238,0.637,0.0228
-0.5,late fusion,0.0221,0.591,0.0228
-0.5,molecular only,0.0229,0.585,0.0228
-0.5,without ptm,0.0237,0.636,0.0228
-0.6,context only,0.0474,0.579,0.049
-0.6,early fusion,0.0481,0.628,0.049
-0.6,late fusion,0.045,0.586,0.049
-0.6,molecular only,0.0471,0.584,0.049
-0.6,without ptm,0.0488,0.623,0.049
-0.7,context only,0.0956,0.556,0.0984
-0.7,early fusion,0.099,0.585,0.0984
-0.7,late fusion,0.0894,0.563,0.0984
-0.7,molecular only,0.0953,0.542,0.0984
-0.7,without ptm,0.101,0.583,0.0984
-0.8,context only,0.18,0.547,0.205
-0.8,early fusion,0.223,0.551,0.205
-0.8,late fusion,0.174,0.546,0.205
-0.8,molecular only,0.209,0.526,0.205
-0.8,without ptm,0.227,0.549,0.205
-0.9,context only,0.282,0.526,0.435
-0.9,early fusion,0.379,0.532,0.435
-0.9,late fusion,0.289,0.53,0.435
-0.9,molecular only,0.367,0.517,0.435
-0.9,without ptm,0.379,0.53,0.435
+0.5,context-only,0.0223,0.5928,0.0228
+0.5,early fusion,0.0238,0.6372,0.0228
+0.5,late fusion,0.0221,0.5912,0.0228
+0.5,molecular-only,0.0229,0.5847,0.0228
+0.5,no-PTM,0.0237,0.6359,0.0228
+0.6,context-only,0.0474,0.5789,0.0490
+0.6,early fusion,0.0481,0.6278,0.0490
+0.6,late fusion,0.0450,0.5860,0.0490
+0.6,molecular-only,0.0471,0.5835,0.0490
+0.6,no-PTM,0.0488,0.6229,0.0490
+0.7,context-only,0.0956,0.5563,0.0984
+0.7,early fusion,0.0990,0.5847,0.0984
+0.7,late fusion,0.0894,0.5627,0.0984
+0.7,molecular-only,0.0953,0.5422,0.0984
+0.7,no-PTM,0.1011,0.5830,0.0984
+0.8,context-only,0.1798,0.5469,0.2047
+0.8,early fusion,0.2230,0.5508,0.2047
+0.8,late fusion,0.1737,0.5465,0.2047
+0.8,molecular-only,0.2086,0.5256,0.2047
+0.8,no-PTM,0.2272,0.5494,0.2047
+0.9,context-only,0.2825,0.5263,0.4348
+0.9,early fusion,0.3790,0.5316,0.4348
+0.9,late fusion,0.2894,0.5296,0.4348
+0.9,molecular-only,0.3672,0.5175,0.4348
+0.9,no-PTM,0.3791,0.5303,0.4348

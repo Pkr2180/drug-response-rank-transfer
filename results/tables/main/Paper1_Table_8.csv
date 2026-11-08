@@ -1,8 +1,0 @@
-﻿Table 8. Replication in two further cohort pairs (cutoff 0.7; ten seeds per design).
-Cohort pair,Design,Positive int/ext (%),Rank agreement (SD),Mean regret,Zero-regret splits,Best external model
-CTRPv2 to GDSCv2 (reverse),random-compound,12.1/10.1,0.50 (0.56),0.0041,5,late fusion
-CTRPv2 to GDSCv2 (reverse),scaffold,12.5/10.1,0.51 (0.58),0.0014,6,late fusion
-CTRPv2 to GDSCv2 (reverse),chemical-cluster,11.8/10.1,0.69 (0.12),0.0013,5,late fusion
-GDSCv2 to GDSCv1,random-compound,13.5/16.0,0.62 (0.33),0.0035,5,context only
-GDSCv2 to GDSCv1,scaffold,14.8/16.0,0.90 (0.13),0.0003,6,context only
-GDSCv2 to GDSCv1,chemical-cluster,13.9/16.0,0.53 (0.63),0.0028,5,context only

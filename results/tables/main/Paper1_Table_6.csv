@@ -1,14 +1,8 @@
-﻿"Table 6. Meta-evaluation on prevalence-adjusted and prevalence-free scales (cutoff 0.7, ten seeds). Regret is in the units of each metric; higher is better for skill and AUROC."
-Metric,Design,Mean |gap|,Rank agreement (SD),Mean regret,Zero-regret splits
-Brier,random-compound,0.038,0.03 (0.51),0.0045,3
-Brier,scaffold,0.04,0.33 (0.40),0.0023,8
-Brier,chemical-cluster,0.04,0.30 (0.59),0.0027,5
-Brier skill,random-compound,0.108,0.03 (0.51),0.0532,3
-Brier skill,scaffold,0.125,0.33 (0.40),0.0271,8
-Brier skill,chemical-cluster,0.112,0.30 (0.59),0.0315,5
-"Brier, intercept-recalibrated",random-compound,0.038,0.35 (0.66),0.0065,5
-"Brier, intercept-recalibrated",scaffold,0.04,0.53 (0.55),0.0035,7
-"Brier, intercept-recalibrated",chemical-cluster,0.038,0.61 (0.22),0.0004,7
-AUROC,random-compound,0.094,0.31 (0.47),0.0159,2
-AUROC,scaffold,0.094,0.24 (0.53),0.021,2
-AUROC,chemical-cluster,0.096,0.64 (0.37),0.0052,4
+﻿Table 6. Meta-evaluation in two replication cohort pairs
+Cohort pair,Design,Positive int/ext (%),Rank agreement (SD),Mean regret,Zero-regret splits,Best external model
+CTRPv2 to GDSCv2 (reverse),random-compound,12.1/10.1,0.50 (0.56),0.0041,5,late fusion
+CTRPv2 to GDSCv2 (reverse),scaffold,12.5/10.1,0.51 (0.58),0.0014,6,late fusion
+CTRPv2 to GDSCv2 (reverse),chemical-cluster,11.8/10.1,0.69 (0.12),0.0013,5,late fusion
+GDSCv2 to GDSCv1,random-compound,13.5/16.0,0.62 (0.33),0.0035,5,context-only
+GDSCv2 to GDSCv1,scaffold,14.8/16.0,0.90 (0.13),0.0003,6,context-only
+GDSCv2 to GDSCv1,chemical-cluster,13.9/16.0,0.53 (0.63),0.0028,5,context-only

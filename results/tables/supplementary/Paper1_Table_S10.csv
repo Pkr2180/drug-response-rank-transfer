@@ -1,11 +1,12 @@
-﻿Table S10. Late-fusion block weights by design (ten seeds).
-Design,Block,Mean weight,SD
-chemical-cluster,context,0.704,0.266
-chemical-cluster,mol,0.119,0.204
-chemical-cluster,ptm,0.177,0.24
-random-compound,context,0.512,0.193
-random-compound,mol,0.394,0.292
-random-compound,ptm,0.094,0.135
-scaffold,context,0.58,0.302
-scaffold,mol,0.317,0.286
-scaffold,ptm,0.103,0.203
+﻿Table S10. Brier skill by model in the replication pairs
+Cohort pair,Model,External skill,Internal skill
+CTRPv2 to GDSCv2 (reverse),context-only,−0.086,0.030
+CTRPv2 to GDSCv2 (reverse),early fusion,−0.271,−0.140
+CTRPv2 to GDSCv2 (reverse),late fusion,−0.052,0.032
+CTRPv2 to GDSCv2 (reverse),molecular-only,−0.241,−0.172
+CTRPv2 to GDSCv2 (reverse),no-PTM,−0.263,−0.138
+GDSCv2 to GDSCv1,context-only,−0.023,0.005
+GDSCv2 to GDSCv1,early fusion,−0.147,−0.066
+GDSCv2 to GDSCv1,late fusion,−0.032,0.004
+GDSCv2 to GDSCv1,molecular-only,−0.152,−0.102
+GDSCv2 to GDSCv1,no-PTM,−0.150,−0.069

@@ -1,17 +1,17 @@
-﻿Table S2. Row-weighted versus equal-compound Brier loss (means over ten seeds).
+﻿Table S2. Row-weighted versus equal-compound Brier loss
 Design,Model,internal_row_weighted_brier,external_row_weighted_brier,internal_compound_brier,external_compound_brier
-chemical_cluster,context_only,0.125,0.0971,0.122,0.0944
-chemical_cluster,early_fusion,0.132,0.103,0.13,0.101
-chemical_cluster,late_fusion,0.125,0.0936,0.122,0.0906
-chemical_cluster,molecular_only,0.139,0.0993,0.137,0.0957
-chemical_cluster,without_ptm,0.132,0.105,0.13,0.103
-random_compound,context_only,0.124,0.0977,0.124,0.0951
-random_compound,early_fusion,0.123,0.0997,0.127,0.0962
-random_compound,late_fusion,0.123,0.0916,0.125,0.088
-random_compound,molecular_only,0.129,0.0977,0.132,0.0935
-random_compound,without_ptm,0.124,0.101,0.127,0.0979
-scaffold,context_only,0.132,0.0996,0.127,0.0972
-scaffold,early_fusion,0.143,0.102,0.138,0.0998
-scaffold,late_fusion,0.134,0.0928,0.129,0.0897
-scaffold,molecular_only,0.149,0.0994,0.143,0.0966
-scaffold,without_ptm,0.143,0.103,0.138,0.102
+chemical-cluster,context-only,0.1252,0.0971,0.1218,0.0944
+chemical-cluster,early fusion,0.1321,0.1029,0.1304,0.1011
+chemical-cluster,late fusion,0.1254,0.0936,0.1221,0.0906
+chemical-cluster,molecular-only,0.1391,0.0993,0.1369,0.0957
+chemical-cluster,no-PTM,0.1322,0.1047,0.1304,0.1033
+random-compound,context-only,0.1237,0.0977,0.1236,0.0951
+random-compound,early fusion,0.1235,0.0997,0.1272,0.0962
+random-compound,late fusion,0.1231,0.0916,0.1249,0.0880
+random-compound,molecular-only,0.1285,0.0977,0.1317,0.0935
+random-compound,no-PTM,0.1236,0.1010,0.1273,0.0979
+scaffold,context-only,0.1324,0.0996,0.1273,0.0972
+scaffold,early fusion,0.1434,0.1017,0.1384,0.0998
+scaffold,late fusion,0.1342,0.0928,0.1292,0.0897
+scaffold,molecular-only,0.1491,0.0994,0.1435,0.0966
+scaffold,no-PTM,0.1434,0.1035,0.1384,0.1021

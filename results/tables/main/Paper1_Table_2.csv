@@ -1,17 +1,17 @@
-﻿Table 2. Primary analysis: mean ± 95% half-width over ten seeds (equal-compound Brier loss; descriptive because splits share observations).
+﻿Table 2. Internal and external performance in the primary analysis
 Design,Model,Internal Brier,External Brier,External AUROC,External AP
-chemical-cluster,context only,0.122 ± 0.018,0.094 ± 0.003,0.557 ± 0.004,0.120 ± 0.002
-chemical-cluster,early fusion,0.130 ± 0.024,0.101 ± 0.004,0.579 ± 0.013,0.129 ± 0.007
-chemical-cluster,late fusion,0.122 ± 0.019,0.091 ± 0.002,0.558 ± 0.008,0.122 ± 0.007
-chemical-cluster,molecular only,0.137 ± 0.026,0.096 ± 0.002,0.534 ± 0.016,0.121 ± 0.007
-chemical-cluster,without ptm,0.130 ± 0.024,0.103 ± 0.004,0.578 ± 0.013,0.128 ± 0.007
-random-compound,context only,0.124 ± 0.019,0.095 ± 0.002,0.558 ± 0.004,0.121 ± 0.002
+random-compound,molecular-only,0.132 ± 0.024,0.094 ± 0.003,0.545 ± 0.019,0.127 ± 0.012
+random-compound,context-only,0.124 ± 0.019,0.095 ± 0.002,0.558 ± 0.004,0.121 ± 0.002
 random-compound,early fusion,0.127 ± 0.024,0.096 ± 0.004,0.585 ± 0.017,0.137 ± 0.011
+random-compound,no-PTM,0.127 ± 0.024,0.098 ± 0.004,0.584 ± 0.017,0.135 ± 0.011
 random-compound,late fusion,0.125 ± 0.022,0.088 ± 0.002,0.569 ± 0.012,0.127 ± 0.008
-random-compound,molecular only,0.132 ± 0.024,0.094 ± 0.003,0.545 ± 0.019,0.127 ± 0.012
-random-compound,without ptm,0.127 ± 0.024,0.098 ± 0.004,0.584 ± 0.017,0.135 ± 0.011
-scaffold,context only,0.127 ± 0.017,0.097 ± 0.003,0.553 ± 0.004,0.119 ± 0.002
+scaffold,molecular-only,0.144 ± 0.021,0.097 ± 0.005,0.548 ± 0.017,0.128 ± 0.011
+scaffold,context-only,0.127 ± 0.017,0.097 ± 0.003,0.553 ± 0.004,0.119 ± 0.002
 scaffold,early fusion,0.138 ± 0.020,0.100 ± 0.005,0.590 ± 0.013,0.138 ± 0.009
+scaffold,no-PTM,0.138 ± 0.020,0.102 ± 0.006,0.587 ± 0.013,0.135 ± 0.009
 scaffold,late fusion,0.129 ± 0.020,0.090 ± 0.002,0.561 ± 0.009,0.126 ± 0.010
-scaffold,molecular only,0.144 ± 0.021,0.097 ± 0.005,0.548 ± 0.017,0.128 ± 0.011
-scaffold,without ptm,0.138 ± 0.020,0.102 ± 0.006,0.587 ± 0.013,0.135 ± 0.009
+chemical-cluster,molecular-only,0.137 ± 0.026,0.096 ± 0.002,0.534 ± 0.016,0.121 ± 0.007
+chemical-cluster,context-only,0.122 ± 0.018,0.094 ± 0.003,0.557 ± 0.004,0.120 ± 0.002
+chemical-cluster,early fusion,0.130 ± 0.024,0.101 ± 0.004,0.579 ± 0.013,0.129 ± 0.007
+chemical-cluster,no-PTM,0.130 ± 0.024,0.103 ± 0.004,0.578 ± 0.013,0.128 ± 0.007
+chemical-cluster,late fusion,0.122 ± 0.019,0.091 ± 0.002,0.558 ± 0.008,0.122 ± 0.007

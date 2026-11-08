@@ -1,4 +1,4 @@
-﻿"Table S3. Internally selected model by design (primary analysis, ten seeds; ties are shown with a vertical bar)."
+﻿Table S3. Internally selected model by design
 Design,Internally selected model,Splits
 chemical-cluster,context only,4
 chemical-cluster,context only|late fusion,2

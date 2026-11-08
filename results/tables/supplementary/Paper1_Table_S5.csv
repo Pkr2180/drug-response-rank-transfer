@@ -1,17 +1,17 @@
-﻿Table S5. External performance by model over 50 seeds.
+﻿Table S5. External performance by model over 50 seeds
 Design,Model,External Brier,External AUROC,Share of seeds with late fusion best
-chemical-cluster,context only,0.096,0.556,nan
-chemical-cluster,early fusion,0.1,0.582,nan
-chemical-cluster,late fusion,0.09,0.561,0.68
-chemical-cluster,molecular only,0.096,0.54,nan
-chemical-cluster,without ptm,0.102,0.579,nan
-random-compound,context only,0.095,0.558,nan
-random-compound,early fusion,0.1,0.583,nan
+chemical-cluster,context-only,0.096,0.556,
+chemical-cluster,early fusion,0.100,0.582,
+chemical-cluster,late fusion,0.090,0.561,0.68
+chemical-cluster,molecular-only,0.096,0.540,
+chemical-cluster,no-PTM,0.102,0.579,
+random-compound,context-only,0.095,0.558,
+random-compound,early fusion,0.100,0.583,
 random-compound,late fusion,0.089,0.569,0.84
-random-compound,molecular only,0.096,0.541,nan
-random-compound,without ptm,0.102,0.582,nan
-scaffold,context only,0.096,0.556,nan
-scaffold,early fusion,0.101,0.587,nan
-scaffold,late fusion,0.09,0.562,0.82
-scaffold,molecular only,0.098,0.546,nan
-scaffold,without ptm,0.104,0.584,nan
+random-compound,molecular-only,0.096,0.541,
+random-compound,no-PTM,0.102,0.582,
+scaffold,context-only,0.096,0.556,
+scaffold,early fusion,0.101,0.587,
+scaffold,late fusion,0.090,0.562,0.82
+scaffold,molecular-only,0.098,0.546,
+scaffold,no-PTM,0.104,0.584,
