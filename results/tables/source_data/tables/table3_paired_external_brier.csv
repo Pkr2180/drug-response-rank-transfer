@@ -1,0 +1,13 @@
+protocol,comparator,mean_external_brier_minus_late_fusion,ci95_halfwidth,splits_late_fusion_better,n
+random_compound,molecular_only,0.0055,0.0023,10,10
+random_compound,context_only,0.0071,0.0027,10,10
+random_compound,early_fusion,0.0082,0.003,10,10
+random_compound,without_ptm,0.0099,0.0034,10,10
+scaffold,molecular_only,0.0069,0.003,10,10
+scaffold,context_only,0.0075,0.0031,8,10
+scaffold,early_fusion,0.0101,0.0035,10,10
+scaffold,without_ptm,0.0124,0.0039,10,10
+chemical_cluster,molecular_only,0.0051,0.0035,8,10
+chemical_cluster,context_only,0.0038,0.0023,7,10
+chemical_cluster,early_fusion,0.0104,0.0045,10,10
+chemical_cluster,without_ptm,0.0127,0.0043,10,10

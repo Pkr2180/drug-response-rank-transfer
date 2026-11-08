@@ -1,0 +1,4 @@
+protocol,rank_agreement_mean,rank_agreement_sd,selection_regret_mean,selection_regret_max,zero_regret_splits,abs_brier_gap_mean,splits
+random_compound,0.03,0.5122,0.0045,0.0084,3,0.0377,10
+scaffold,0.3263,0.397,0.0023,0.016,8,0.0395,10
+chemical_cluster,0.3027,0.5874,0.0027,0.0115,5,0.0398,10

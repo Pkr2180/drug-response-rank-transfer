@@ -1,0 +1,7 @@
+contrast,metric,difference,ci_low,ci_high
+scaffold minus random_compound,rank_agreement,0.1175,-0.0599,0.2925
+scaffold minus random_compound,selection_regret,0.0001,-0.0015,0.0017
+chemical_cluster minus random_compound,rank_agreement,0.0962,-0.0896,0.2777
+chemical_cluster minus random_compound,selection_regret,0.0008,-0.0008,0.0024
+chemical_cluster minus scaffold,rank_agreement,-0.0213,-0.2051,0.1636
+chemical_cluster minus scaffold,selection_regret,0.0007,-0.0011,0.0025

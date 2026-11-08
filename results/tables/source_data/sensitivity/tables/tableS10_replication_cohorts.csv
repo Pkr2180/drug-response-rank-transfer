@@ -1,0 +1,10 @@
+cohort,design,external_prevalence,internal_prevalence,rank_agreement_mean,rank_agreement_sd,regret_mean,zero_regret_splits,abs_gap_mean,best_external_model,late_fusion_external_brier,external_auroc_late_fusion
+GDSCv2 to CTRPv2 (primary),random_compound,0.0984,0.1463,0.03,0.5122,0.0045,3,0.0377,late_fusion,0.088,0.5689
+GDSCv2 to CTRPv2 (primary),scaffold,0.0984,0.1605,0.3263,0.397,0.0023,8,0.0395,late_fusion,0.0897,0.5608
+GDSCv2 to CTRPv2 (primary),chemical_cluster,0.0984,0.1487,0.3027,0.5874,0.0027,5,0.0398,late_fusion,0.0906,0.5585
+CTRPv2 to GDSCv2 (reverse),random_compound,0.1006,0.1207,0.4984,0.5639,0.0041,5,0.0173,late_fusion,0.0864,0.5847
+CTRPv2 to GDSCv2 (reverse),scaffold,0.1006,0.1247,0.5084,0.5777,0.0014,6,0.0175,late_fusion,0.0881,0.5701
+CTRPv2 to GDSCv2 (reverse),chemical_cluster,0.1006,0.118,0.6863,0.1216,0.0013,5,0.0147,late_fusion,0.0894,0.5625
+GDSCv2 to GDSCv1,random_compound,0.1597,0.135,0.62,0.3293,0.0035,5,0.037,context_only,0.1405,0.5654
+GDSCv2 to GDSCv1,scaffold,0.1597,0.1484,0.9049,0.1251,0.0003,6,0.0315,context_only,0.1403,0.5554
+GDSCv2 to GDSCv1,chemical_cluster,0.1597,0.1385,0.5305,0.6277,0.0028,5,0.051,context_only,0.1391,0.5592

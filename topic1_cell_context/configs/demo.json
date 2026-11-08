@@ -1,0 +1,8 @@
+{
+  "data_seed": 17,
+  "seeds": [11, 23, 37],
+  "protocols": ["random_compound", "scaffold", "chemical_cluster"],
+  "models": ["molecular_only", "context_only", "early_fusion", "without_ptm", "late_fusion"],
+  "bootstrap_draws": 200
+}
+

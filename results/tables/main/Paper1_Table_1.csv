@@ -1,0 +1,6 @@
+﻿Table 1. Cohorts used in the primary analysis (positive = growth-inhibition AUC < 0.7).
+Cohort,Observations,Compounds,Cell lines,Positive (%)
+Development (GDSCv2),"10,543",168,72,14.8
+External (CTRPv2),"36,199",420,112,9.8
+  cell lines also in development,"20,596",420,64,10.2
+  cell lines not in development,"15,603",420,48,9.4

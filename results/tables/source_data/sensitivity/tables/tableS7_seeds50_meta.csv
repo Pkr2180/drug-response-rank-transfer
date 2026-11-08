@@ -1,0 +1,4 @@
+design,seeds,rank_agreement_mean,rank_agreement_sd,rank_ci_low,rank_ci_high,regret_mean,regret_ci_low,regret_ci_high,zero_regret_share,abs_gap_mean
+random_compound,50,0.1839,0.4571,0.0544,0.306,0.0028,0.0018,0.0038,0.52,0.0308
+scaffold,50,0.3014,0.4615,0.1694,0.4256,0.0029,0.0017,0.0042,0.6,0.0325
+chemical_cluster,50,0.28,0.4789,0.1466,0.4056,0.0036,0.0024,0.0048,0.48,0.0351

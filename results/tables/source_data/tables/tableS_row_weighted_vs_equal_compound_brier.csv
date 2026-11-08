@@ -1,0 +1,16 @@
+protocol,model,internal_row_weighted_brier,external_row_weighted_brier,internal_compound_brier,external_compound_brier
+chemical_cluster,context_only,0.1252,0.0971,0.1218,0.0944
+chemical_cluster,early_fusion,0.1321,0.1029,0.1304,0.1011
+chemical_cluster,late_fusion,0.1254,0.0936,0.1221,0.0906
+chemical_cluster,molecular_only,0.1391,0.0993,0.1369,0.0957
+chemical_cluster,without_ptm,0.1322,0.1047,0.1304,0.1033
+random_compound,context_only,0.1237,0.0977,0.1236,0.0951
+random_compound,early_fusion,0.1235,0.0997,0.1272,0.0962
+random_compound,late_fusion,0.1231,0.0916,0.1249,0.088
+random_compound,molecular_only,0.1285,0.0977,0.1317,0.0935
+random_compound,without_ptm,0.1236,0.101,0.1273,0.0979
+scaffold,context_only,0.1324,0.0996,0.1273,0.0972
+scaffold,early_fusion,0.1434,0.1017,0.1384,0.0998
+scaffold,late_fusion,0.1342,0.0928,0.1292,0.0897
+scaffold,molecular_only,0.1491,0.0994,0.1435,0.0966
+scaffold,without_ptm,0.1434,0.1035,0.1384,0.1021

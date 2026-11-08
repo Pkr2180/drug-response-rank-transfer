@@ -1,0 +1,14 @@
+﻿"Table S1. Paired external equal-compound Brier loss: comparator minus late fusion (primary analysis, ten seeds)."
+Design,Comparator,Mean difference (comparator − late fusion),95% half-width,Splits favouring late fusion,Splits
+random-compound,molecular only,0.0055,0.0023,10,10
+random-compound,context only,0.0071,0.0027,10,10
+random-compound,early fusion,0.0082,0.003,10,10
+random-compound,without ptm,0.0099,0.0034,10,10
+scaffold,molecular only,0.0069,0.003,10,10
+scaffold,context only,0.0075,0.0031,8,10
+scaffold,early fusion,0.0101,0.0035,10,10
+scaffold,without ptm,0.0124,0.0039,10,10
+chemical-cluster,molecular only,0.0051,0.0035,8,10
+chemical-cluster,context only,0.0038,0.0023,7,10
+chemical-cluster,early fusion,0.0104,0.0045,10,10
+chemical-cluster,without ptm,0.0127,0.0043,10,10

@@ -1,0 +1,11 @@
+cohort,model,external,internal
+CTRPv2 to GDSCv2 (reverse),context_only,-0.086,0.03
+CTRPv2 to GDSCv2 (reverse),early_fusion,-0.271,-0.14
+CTRPv2 to GDSCv2 (reverse),late_fusion,-0.052,0.032
+CTRPv2 to GDSCv2 (reverse),molecular_only,-0.241,-0.172
+CTRPv2 to GDSCv2 (reverse),without_ptm,-0.263,-0.138
+GDSCv2 to GDSCv1,context_only,-0.023,0.005
+GDSCv2 to GDSCv1,early_fusion,-0.147,-0.066
+GDSCv2 to GDSCv1,late_fusion,-0.032,0.004
+GDSCv2 to GDSCv1,molecular_only,-0.152,-0.102
+GDSCv2 to GDSCv1,without_ptm,-0.15,-0.069

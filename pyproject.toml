@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioinformatics-metaevaluation-workbench"
+version = "0.2.0"
+description = "Research implementations for two distinct bioinformatics meta-evaluation studies"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3", "pandas>=2.1,<3", "scipy>=1.11,<2",
+  "scikit-learn>=1.5,<2", "matplotlib>=3.8,<4"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "pytest-cov>=5,<8", "ruff>=0.9,<1", "build>=1,<2"]
+chemistry = ["rdkit>=2024.3"]
+
+[project.scripts]
+context-audit = "topic1_cell_context.cli:main"
+uncertainty-audit = "topic2_uncertainty.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["research_common*", "topic1_cell_context*", "topic2_uncertainty*"]
+
+[tool.setuptools.package-data]
+topic1_cell_context = ["configs/*.json"]
+topic2_uncertainty = ["configs/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["error::sklearn.exceptions.ConvergenceWarning"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 110
+extend-exclude = ["audit", "outputs", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+

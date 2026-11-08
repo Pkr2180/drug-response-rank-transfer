@@ -1,0 +1,21 @@
+{
+  "title": "Endpoint definition, not holdout design, shapes the cross-study transfer of drug-response model rankings: a multi-cohort meta-evaluation of rank agreement and selection regret",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Kumar, Pradeep"
+    }
+  ],
+  "description": "Code, configurations, run manifests, result tables and figures for the manuscript: Endpoint definition, not holdout design, shapes the cross-study transfer of drug-response model rankings: a multi-cohort meta-evaluation of rank agreement and selection regret.",
+  "keywords": [
+    "drug-response prediction",
+    "model selection",
+    "external validation",
+    "rank agreement",
+    "selection regret",
+    "GDSC",
+    "CTRP"
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,6 @@
+{
+  "seeds": [11, 23, 37, 41, 53, 67, 79, 83, 97, 101],
+  "protocols": ["random_compound", "scaffold", "chemical_cluster"],
+  "models": ["molecular_only", "context_only", "early_fusion", "without_ptm", "late_fusion"],
+  "bootstrap_draws": 2000
+}

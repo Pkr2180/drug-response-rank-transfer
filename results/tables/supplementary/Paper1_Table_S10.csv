@@ -1,0 +1,11 @@
+﻿Table S10. Late-fusion block weights by design (ten seeds).
+Design,Block,Mean weight,SD
+chemical-cluster,context,0.704,0.266
+chemical-cluster,mol,0.119,0.204
+chemical-cluster,ptm,0.177,0.24
+random-compound,context,0.512,0.193
+random-compound,mol,0.394,0.292
+random-compound,ptm,0.094,0.135
+scaffold,context,0.58,0.302
+scaffold,mol,0.317,0.286
+scaffold,ptm,0.103,0.203

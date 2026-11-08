@@ -1,0 +1,8 @@
+﻿Table S4. Differences between designs in mean rank agreement and selection regret with 95% bootstrap intervals (50 seeds per design).
+Contrast,Metric,Difference,CI low,CI high
+scaffold minus random_compound,rank_agreement,0.118,-0.06,0.292
+scaffold minus random_compound,selection_regret,0,-0.002,0.002
+chemical_cluster minus random_compound,rank_agreement,0.096,-0.09,0.278
+chemical_cluster minus random_compound,selection_regret,0.001,-0.001,0.002
+chemical_cluster minus scaffold,rank_agreement,-0.021,-0.205,0.164
+chemical_cluster minus scaffold,selection_regret,0.001,-0.001,0.002

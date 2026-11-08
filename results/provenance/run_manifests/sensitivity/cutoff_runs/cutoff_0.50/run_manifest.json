@@ -1,0 +1,124 @@
+{
+  "manifest_version": 2,
+  "software_version": "0.2.0",
+  "command": [
+    "/app/topic1_cell_context/cli.py",
+    "run",
+    "--config",
+    "/app/topic1_cell_context/configs/research.json",
+    "--input",
+    "/tmp/in/table_0.50.csv",
+    "--provenance",
+    "/tmp/in/prov_0.50.json",
+    "--output",
+    "/data/sens_t1/cutoff_0.50"
+  ],
+  "status": "COMPLETED_USER_SUPPLIED_DATA_UNVERIFIED",
+  "recorded_at_utc": "2026-11-05T05:16:05.898074+00:00",
+  "python": "3.12.10",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "packages": {
+    "numpy": "2.2.5",
+    "pandas": "2.3.1",
+    "scipy": "1.15.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "config": {
+    "seeds": [
+      11,
+      23,
+      37,
+      41,
+      53,
+      67,
+      79,
+      83,
+      97,
+      101
+    ],
+    "protocols": [
+      "random_compound",
+      "scaffold",
+      "chemical_cluster"
+    ],
+    "models": [
+      "molecular_only",
+      "context_only",
+      "early_fusion",
+      "without_ptm",
+      "late_fusion"
+    ],
+    "bootstrap_draws": 2000
+  },
+  "input_sha256": {
+    "/app/topic1_cell_context/configs/research.json": "2fc3df2e380bb159627e0143cff864b44f730285eb18f885b69b832b584c96b6",
+    "/tmp/in/table_0.50.csv": "3a0c3a548a12702b7f2605c01396d5aa314153a8cc02fbf6d8c9eb0921fc1620",
+    "/tmp/in/prov_0.50.json": "a05a746cd7e5e6b95b540031d3e15e28a6d641825312a4c6ea2aa9c1e6ec5684"
+  },
+  "code_sha256": {
+    "research_common/__init__.py": "1ef6b6b34b312b31f5fa51395fea302f08db089ec4f2be65f74a7e5ef499c936",
+    "research_common/io.py": "f9cfb0254af5922c4fcd29f372fe865686fc3af188a26f5811986ff8902b55d6",
+    "research_common/metrics.py": "185ad9f9ead6d14557c134413aac59924567e3b8a68361a79652e4b7a0e12a71",
+    "research_common/models.py": "0cfbf2deab20fc8454b18a66dbae9e2a99193301cf86f631af041b5f30267f3e",
+    "research_common/plots.py": "f26de4d2aa7b2a5ba58888dd71f7912785cd90ef020926f6a0554f9748019183",
+    "research_common/provenance.py": "9dde4775cc98ec1e3baea53cfe049f8cac1b18b342b50ba271b978b5f11ff4bc",
+    "research_common/randomness.py": "095b4670eaa7aed3fc9291a2db82d4d60a456fe06633e318a2cf42579ed3dd06",
+    "research_common/splits.py": "219d9f09cf04aa2826e0c1c47fce90349a857c1a760f861c57c04654134802f0",
+    "research_common/validation.py": "c9fd5aa9e4d912035cbf8ac8411ae7ca91a0f7be349f76050a7da07b90f2eb43",
+    "topic1_cell_context/__init__.py": "ed273c68cffbe6bcd2127566a057b0a6a834afb4bb0296b24a5f7d91dc4568bd",
+    "topic1_cell_context/benchmark.py": "c228bf8cfb11dec338357bd3a728b62b54d0ee669ee26f11074b0736614afa50",
+    "topic1_cell_context/chemistry.py": "842601f04d70e0db9e66a28665ad297a149869695c2890923ae2f856b2e97edb",
+    "topic1_cell_context/cli.py": "0f2484156e70a8f4b8aad9d51dcf3dec547a0a05747401a02d0510d1f6c0480e",
+    "topic1_cell_context/configs/demo.json": "3087b27c86521fdae6042e02a02d79e051129300228b113ed8b3c3a098874a5d",
+    "topic1_cell_context/configs/research.json": "2fc3df2e380bb159627e0143cff864b44f730285eb18f885b69b832b584c96b6",
+    "topic1_cell_context/data.py": "905f1a740cc2dc6c707ac70b6212ba1135c0eac60e6ef002bfa6e7cf67e4087f",
+    "topic1_cell_context/prioritization.py": "e62726052bb2807aca75f5e03474d16c521919cc58c0a393d8099ac93deb68f3",
+    "topic2_uncertainty/__init__.py": "01995fbe61720d4b848619cf321a357d607a5eb2ff58cb25eec9a641da07172a",
+    "topic2_uncertainty/benchmark.py": "0dcfe09db1a953ab10858e8a90764f3d6646f2b12a58cdeae5bca156d25bf56e",
+    "topic2_uncertainty/cli.py": "d1c3ff07271b59eaf631c502d1bca76f451dc533d44eb7776ac6517c4df4632c",
+    "topic2_uncertainty/configs/demo.json": "42babf9ab19cccb88c80f571cfc512450b9bd3d6ced64e67adcdc7b5057c66d8",
+    "topic2_uncertainty/configs/research.json": "fbc0387c24e369dca227dde1958abf1ca6afc38a28363670691f2a12c3617588",
+    "topic2_uncertainty/pseudobulk.py": "21c4ddbd22f81b06ef7941eb1e5dfc32e590fe1d56cd9c5970c90ae953309f89",
+    "topic2_uncertainty/simulation.py": "565c2949e2b901f80edc2c99865a93098259361266ddcabad92530045b3a9c2a",
+    "topic2_uncertainty/target_ranking.py": "146c4020e57008e08d5c7a758fe2d161f2157bd75510e35628eae166426c12c7"
+  },
+  "notes": {
+    "dataset_sources": [
+      {
+        "accession_or_url": "https://zenodo.org/records/15258883 (csa_data.zip; Partin et al. cross-study drug response benchmark; GDSCv2 and CTRPv2 response, DepMap/CCLE expression and RPPA, PubChem SMILES)",
+        "version_or_retrieval_date": "Zenodo record 15258883 (published 2025-04-21); retrieved 2026-11-04; archive MD5 984eabec912914e62d56d8e0073475f8 matches Zenodo",
+        "sha256": "0b7ec848d3ca9241796b5cc69c6ef70d73ce7e29bf8d5cf24cf0fb98b77016cb"
+      }
+    ],
+    "source_file_sha256": {
+      "response": "fc99df8e13bc5965c65c9a7c7c7167bcca2b46bbb4cf10a35aea7749038b2c52",
+      "drug_SMILES": "04a98de22d9aaff4aba9e23c790bd55789a3358a9402c8f21231603b27e75e3b",
+      "gene_expression": "2502d036a496ab0cfa17c46f3e8c4e004c901cdc9c6f125a795b456cfcadc7bd",
+      "RPPA": "9c91a8a0b86fb01bdb707609473f642b26395c1c365db84cc45d745fe370ae33"
+    },
+    "license_review": "Zenodo record 15258883 states no explicit license. Underlying resources are GDSC, CTRPv2 and DepMap/CCLE public releases processed by the benchmark authors. Raw data are not redistributed in this repository; they stay on local storage. Confirm terms of use of each resource before any publication or data sharing.",
+    "endpoint_definition": "SENSITIVITY ANALYSIS: label 1 if median benchmark-fitted dose-response AUC < 0.50; same rows and features as the primary analysis (cutoff 0.7). Cutoff applied identically to both studies; prevalence {'development': 0.0424, 'external': 0.0228}. ",
+    "feature_construction": "mol__: Morgan radius-2 1024-bit fingerprints of RDKit-standardized parent structures (constant-in-development bits removed). context__: the 200 highest-variance genes of DepMap expression across the 120 sampled cell lines, selected without outcome information. ptm__: 55 phospho-specific RPPA antibodies (names matching _p[STY]<digits>), missing values left for training-fitted imputation. 120 cell lines were sampled at random (seed 20261104) from lines having expression, RPPA and response data. Duplicate compound IDs mapping to one standardized structure were merged (2 IDs). No labels or response values were used for feature selection.",
+    "independent_unit": "Compound (equal weight); contexts (cell lines) are shared between cohorts, so external evaluation tests new compounds in a different study, not new cell lines.",
+    "outcome_derived_features": false,
+    "external_cohort_definition": "CTRPv2 study; compounds whose standardized structure or ID occurs in GDSCv2 were removed so no compound or structure crosses cohorts. Development cohort is GDSCv2.",
+    "external_used_for_tuning": false
+  },
+  "started_at_utc": "2026-11-05T05:16:05.898074+00:00",
+  "finished_at_utc": "2026-11-05T05:21:18.661230+00:00",
+  "elapsed_seconds": 312.521906146,
+  "output_sha256": {
+    "external_validity.png": "c8b1ff2aaf99cba388abf03576111f2c57bbbbf5516d2ab89175ce22140c4fa8",
+    "external_validity.svg": "b92d3b7a33f9d7eac146e480ce2ba55a1a50bdd1030dd3dfd5572ff117d76dc8",
+    "fusion_weights.csv": "bc785fef8936ad7a535eb1e67b25ebfe787e7894cf967ed14643ac4ea00046a3",
+    "interpretation.json": "84bac006c63183b2842e1f124bfe6b204cc25bde02650161aa67fe3aef1d7b21",
+    "meta_evaluation.csv": "95de3c1e627caff7e76fedee44a94fadd3d252e62cb1c701ba8051aeeab308d4",
+    "predictions.csv": "f867ac7fa2d44a0e8c9977b62642f9387f95355f05b8c797338d4f9193caf1ce",
+    "scores.csv": "9682e5f4676c74d9380d4c5a799acf63518f0b4bcfe423b683033f37fccfefb4",
+    "split_assignments.csv": "e1ca94f893c6d9a83cf6c6b2802b51aae5af5deb7aee74baa1a374ff0f07b49a",
+    "warnings.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  }
+}

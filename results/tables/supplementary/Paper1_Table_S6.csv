@@ -1,0 +1,27 @@
+﻿"Table S6. External equal-compound Brier loss, AUROC and prevalence by model and endpoint cutoff (means over ten seeds and three designs)."
+Cutoff,Model,External Brier,External AUROC,External prevalence
+0.5,context only,0.0223,0.593,0.0228
+0.5,early fusion,0.0238,0.637,0.0228
+0.5,late fusion,0.0221,0.591,0.0228
+0.5,molecular only,0.0229,0.585,0.0228
+0.5,without ptm,0.0237,0.636,0.0228
+0.6,context only,0.0474,0.579,0.049
+0.6,early fusion,0.0481,0.628,0.049
+0.6,late fusion,0.045,0.586,0.049
+0.6,molecular only,0.0471,0.584,0.049
+0.6,without ptm,0.0488,0.623,0.049
+0.7,context only,0.0956,0.556,0.0984
+0.7,early fusion,0.099,0.585,0.0984
+0.7,late fusion,0.0894,0.563,0.0984
+0.7,molecular only,0.0953,0.542,0.0984
+0.7,without ptm,0.101,0.583,0.0984
+0.8,context only,0.18,0.547,0.205
+0.8,early fusion,0.223,0.551,0.205
+0.8,late fusion,0.174,0.546,0.205
+0.8,molecular only,0.209,0.526,0.205
+0.8,without ptm,0.227,0.549,0.205
+0.9,context only,0.282,0.526,0.435
+0.9,early fusion,0.379,0.532,0.435
+0.9,late fusion,0.289,0.53,0.435
+0.9,molecular only,0.367,0.517,0.435
+0.9,without ptm,0.379,0.53,0.435

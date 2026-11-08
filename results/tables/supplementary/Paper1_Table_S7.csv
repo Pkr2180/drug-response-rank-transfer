@@ -1,0 +1,7 @@
+﻿"Table S7. Brier loss, Brier skill against a constant forecast, intercept-recalibrated Brier loss and AUROC by model (cutoff 0.7; means over 30 splits)."
+Model,Brier int,Brier ext,Skill int,Skill ext,Recal. Brier int,Recal. Brier ext,AUROC int,AUROC ext
+molecular_only,0.137,0.095,-0.092,-0.123,0.148,0.108,0.566,0.542
+context_only,0.124,0.096,-0.001,-0.126,0.121,0.088,0.642,0.556
+early_fusion,0.132,0.099,-0.051,-0.167,0.14,0.113,0.657,0.585
+without_ptm,0.132,0.101,-0.051,-0.192,0.14,0.114,0.657,0.583
+late_fusion,0.125,0.089,-0.004,-0.054,0.12,0.087,0.651,0.563

@@ -1,0 +1,6 @@
+model,brier_ec_internal,brier_ec_external,brier_skill_internal,brier_skill_external,brier_recalibrated_ec_internal,brier_recalibrated_ec_external,internal_roc_auc,external_roc_auc
+molecular_only,0.1374,0.0953,-0.0918,-0.123,0.1481,0.1081,0.5659,0.5422
+context_only,0.1242,0.0956,-0.001,-0.1265,0.1206,0.0875,0.6422,0.5563
+early_fusion,0.132,0.099,-0.0508,-0.1673,0.1397,0.1126,0.6567,0.5847
+without_ptm,0.132,0.1011,-0.0509,-0.1916,0.1397,0.114,0.6566,0.583
+late_fusion,0.1254,0.0894,-0.0036,-0.0543,0.12,0.0869,0.651,0.5627

@@ -1,0 +1,16 @@
+protocol,model,external_brier,external_auroc,late_fusion_best_share
+chemical_cluster,context_only,0.0962,0.5562,
+chemical_cluster,early_fusion,0.1003,0.5816,
+chemical_cluster,late_fusion,0.0904,0.5613,0.68
+chemical_cluster,molecular_only,0.0962,0.5396,
+chemical_cluster,without_ptm,0.1025,0.579,
+random_compound,context_only,0.0952,0.5575,
+random_compound,early_fusion,0.0997,0.5829,
+random_compound,late_fusion,0.0889,0.5694,0.84
+random_compound,molecular_only,0.0965,0.5411,
+random_compound,without_ptm,0.1019,0.5815,
+scaffold,context_only,0.0964,0.5556,
+scaffold,early_fusion,0.1013,0.5868,
+scaffold,late_fusion,0.0901,0.5615,0.82
+scaffold,molecular_only,0.0977,0.5464,
+scaffold,without_ptm,0.1035,0.5841,

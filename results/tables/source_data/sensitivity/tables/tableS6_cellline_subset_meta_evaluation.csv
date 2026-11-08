@@ -1,0 +1,7 @@
+external_subset,protocol,mean_abs_gap,rank_agreement_mean,rank_agreement_sd,selection_regret_mean,zero_regret_splits
+novel_lines,chemical_cluster,0.0414,0.1927,0.5313,0.0052,5
+novel_lines,random_compound,0.039,0.02,0.3994,0.007,3
+novel_lines,scaffold,0.0412,0.0611,0.3991,0.0047,5
+shared_lines,chemical_cluster,0.0388,0.4633,0.4267,0.0013,6
+shared_lines,random_compound,0.0371,0.16,0.6883,0.0031,4
+shared_lines,scaffold,0.0386,0.5184,0.3544,0.0008,8

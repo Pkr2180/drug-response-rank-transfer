@@ -1,0 +1,5 @@
+﻿Table 3. Primary analysis: meta-evaluation by internal design (ten prespecified splits each).
+Design,Mean |gap|,Rank agreement (mean),Rank agreement (SD),Mean regret,Max regret,Zero-regret splits
+random-compound,0.0377,0.03,0.51,0.0045,0.0084,3
+scaffold,0.0395,0.33,0.4,0.0023,0.016,8
+chemical-cluster,0.0398,0.3,0.59,0.0027,0.0115,5

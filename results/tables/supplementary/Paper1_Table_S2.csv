@@ -1,0 +1,17 @@
+﻿Table S2. Row-weighted versus equal-compound Brier loss (means over ten seeds).
+Design,Model,internal_row_weighted_brier,external_row_weighted_brier,internal_compound_brier,external_compound_brier
+chemical_cluster,context_only,0.125,0.0971,0.122,0.0944
+chemical_cluster,early_fusion,0.132,0.103,0.13,0.101
+chemical_cluster,late_fusion,0.125,0.0936,0.122,0.0906
+chemical_cluster,molecular_only,0.139,0.0993,0.137,0.0957
+chemical_cluster,without_ptm,0.132,0.105,0.13,0.103
+random_compound,context_only,0.124,0.0977,0.124,0.0951
+random_compound,early_fusion,0.123,0.0997,0.127,0.0962
+random_compound,late_fusion,0.123,0.0916,0.125,0.088
+random_compound,molecular_only,0.129,0.0977,0.132,0.0935
+random_compound,without_ptm,0.124,0.101,0.127,0.0979
+scaffold,context_only,0.132,0.0996,0.127,0.0972
+scaffold,early_fusion,0.143,0.102,0.138,0.0998
+scaffold,late_fusion,0.134,0.0928,0.129,0.0897
+scaffold,molecular_only,0.149,0.0994,0.143,0.0966
+scaffold,without_ptm,0.143,0.103,0.138,0.102

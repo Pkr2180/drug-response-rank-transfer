@@ -1,0 +1,14 @@
+﻿"Table 6. Meta-evaluation on prevalence-adjusted and prevalence-free scales (cutoff 0.7, ten seeds). Regret is in the units of each metric; higher is better for skill and AUROC."
+Metric,Design,Mean |gap|,Rank agreement (SD),Mean regret,Zero-regret splits
+Brier,random-compound,0.038,0.03 (0.51),0.0045,3
+Brier,scaffold,0.04,0.33 (0.40),0.0023,8
+Brier,chemical-cluster,0.04,0.30 (0.59),0.0027,5
+Brier skill,random-compound,0.108,0.03 (0.51),0.0532,3
+Brier skill,scaffold,0.125,0.33 (0.40),0.0271,8
+Brier skill,chemical-cluster,0.112,0.30 (0.59),0.0315,5
+"Brier, intercept-recalibrated",random-compound,0.038,0.35 (0.66),0.0065,5
+"Brier, intercept-recalibrated",scaffold,0.04,0.53 (0.55),0.0035,7
+"Brier, intercept-recalibrated",chemical-cluster,0.038,0.61 (0.22),0.0004,7
+AUROC,random-compound,0.094,0.31 (0.47),0.0159,2
+AUROC,scaffold,0.094,0.24 (0.53),0.021,2
+AUROC,chemical-cluster,0.096,0.64 (0.37),0.0052,4

@@ -1,0 +1,12 @@
+protocol,internally_selected_model,n_splits
+chemical_cluster,context_only,4
+chemical_cluster,context_only|late_fusion,2
+chemical_cluster,late_fusion,3
+chemical_cluster,without_ptm,1
+random_compound,context_only,3
+random_compound,early_fusion,2
+random_compound,late_fusion,3
+random_compound,without_ptm,2
+scaffold,context_only,2
+scaffold,context_only|late_fusion,2
+scaffold,late_fusion,6

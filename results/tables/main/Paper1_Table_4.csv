@@ -1,0 +1,5 @@
+﻿Table 4. Primary cutoff with 50 split seeds per design (ten prespecified plus 40 additional): rank agreement and selection regret with 95% percentile bootstrap intervals over seeds.
+Design,Seeds,"Rank agreement, mean (95% CI)",Rank agreement SD,Mean regret (95% CI),Zero-regret share,Mean |gap|
+random-compound,50,0.18 (0.05 to 0.31),0.46,0.0028 (0.0018 to 0.0038),0.52,0.031
+scaffold,50,0.30 (0.17 to 0.43),0.46,0.0029 (0.0017 to 0.0042),0.6,0.032
+chemical-cluster,50,0.28 (0.15 to 0.41),0.48,0.0036 (0.0024 to 0.0048),0.48,0.035
