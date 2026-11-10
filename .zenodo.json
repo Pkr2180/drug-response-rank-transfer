@@ -4,7 +4,8 @@
   "license": "MIT",
   "creators": [
     {
-      "name": "Kumar, Pradeep"
+      "name": "Yadalam, Pradeep Kumar",
+      "affiliation": "Department of Periodontics, Saveetha Dental College and Hospitals, Saveetha Institute of Medical and Technical Sciences (SIMATS), Chennai, Tamil Nadu, India"
     }
   ],
   "description": "Code, configurations, run manifests, result tables and figures for the manuscript: Endpoint definition, not holdout design, shapes the cross-study transfer of drug-response model rankings: a multi-cohort meta-evaluation of rank agreement and selection regret.",
