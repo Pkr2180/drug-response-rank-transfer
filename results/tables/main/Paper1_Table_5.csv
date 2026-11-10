@@ -1,8 +1,8 @@
 ﻿Table 5. Meta-evaluation by overlap of external cell lines with development
 External subset,Design,Mean |gap|,Rank agreement (SD),Mean regret,Zero-regret splits
-cell lines not in development,chemical-cluster,0.041,0.19 (0.53),0.0052,5
-cell lines not in development,random-compound,0.039,0.02 (0.40),0.0070,3
-cell lines not in development,scaffold,0.041,0.06 (0.40),0.0047,5
-cell lines also in development,chemical-cluster,0.039,0.46 (0.43),0.0013,6
 cell lines also in development,random-compound,0.037,0.16 (0.69),0.0031,4
 cell lines also in development,scaffold,0.039,0.52 (0.35),0.0008,8
+cell lines also in development,chemical-cluster,0.039,0.46 (0.43),0.0013,6
+cell lines not in development,random-compound,0.039,0.02 (0.40),0.0070,3
+cell lines not in development,scaffold,0.041,0.06 (0.40),0.0047,5
+cell lines not in development,chemical-cluster,0.041,0.19 (0.53),0.0052,5
