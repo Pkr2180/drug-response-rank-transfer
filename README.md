@@ -1,5 +1,7 @@
 # Endpoint definition, not holdout design, shapes the cross-study transfer of drug-response model rankings: a multi-cohort meta-evaluation of rank agreement and selection regret
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24099873.svg)](https://doi.org/10.5281/zenodo.24099873)
+
 Code, configurations, run manifests, result tables and figures for the manuscript *Endpoint definition, not holdout design, shapes the cross-study transfer of drug-response model rankings: a multi-cohort meta-evaluation of rank agreement and selection regret* (submitted to BMC Bioinformatics).
 
 ## Repository layout
